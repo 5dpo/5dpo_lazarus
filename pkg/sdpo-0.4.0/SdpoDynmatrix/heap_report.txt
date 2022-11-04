@@ -1,0 +1,253 @@
+C:\lazarus\components\sdpo\SdpoDynmatrix\test_o.exe 
+Heap dump by heaptrc unit
+608079 memory blocks allocated : 90935422/91766880
+608067 memory blocks freed     : 90934326/91765784
+12 unfreed memory blocks : 1096
+True heap size : 327680
+True free heap : 325536
+Should be : 325816
+Call trace for block $003299D0 size 104
+  $00548C6F  TDMATRIX__INIT,  line 419 of dynmatrix.pas
+  $0054B873  MSTACK,  line 1223 of dynmatrix.pas
+  $0042834D  TFMAIN__BTEST8CLICK,  line 198 of main.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $0051564B  TBUTTONCONTROL__WMDEFAULTCLICKED,  line 20 of ./include/buttoncontrol.inc
+  $BAADF00D
+Call trace for block $003312B8 size 136
+  $00548C6F  TDMATRIX__INIT,  line 419 of dynmatrix.pas
+  $005481A3  MDIAG,  line 220 of dynmatrix.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $0051564B  TBUTTONCONTROL__WMDEFAULTCLICKED,  line 20 of ./include/buttoncontrol.inc
+  $0040CEB8
+  $BAADF00D
+Call trace for block $00331118 size 136
+  $00548C6F  TDMATRIX__INIT,  line 419 of dynmatrix.pas
+  $005481A3  MDIAG,  line 220 of dynmatrix.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $0051564B  TBUTTONCONTROL__WMDEFAULTCLICKED,  line 20 of ./include/buttoncontrol.inc
+  $0040CEB8
+  $BAADF00D
+Call trace for block $00305B38 size 80
+  $00548C6F  TDMATRIX__INIT,  line 419 of dynmatrix.pas
+  $00548944  star,  line 364 of dynmatrix.pas
+  $004274CC  TFMAIN__BTEST2CLICK,  line 81 of main.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $0051564B  TBUTTONCONTROL__WMDEFAULTCLICKED,  line 20 of ./include/buttoncontrol.inc
+  $BAADF00D
+Call trace for block $00306178 size 80
+  $00548C6F  TDMATRIX__INIT,  line 419 of dynmatrix.pas
+  $00548944  star,  line 364 of dynmatrix.pas
+  $00548BBD  starstar,  line 405 of dynmatrix.pas
+  $005483C2  MPOW,  line 251 of dynmatrix.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $BAADF00D
+Call trace for block $003060D8 size 80
+  $00548C6F  TDMATRIX__INIT,  line 419 of dynmatrix.pas
+  $00548944  star,  line 364 of dynmatrix.pas
+  $00548BDD  starstar,  line 407 of dynmatrix.pas
+  $005483C2  MPOW,  line 251 of dynmatrix.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $BAADF00D
+Call trace for block $00306038 size 80
+  $00548C6F  TDMATRIX__INIT,  line 419 of dynmatrix.pas
+  $00548944  star,  line 364 of dynmatrix.pas
+  $00548BDD  starstar,  line 407 of dynmatrix.pas
+  $005483C2  MPOW,  line 251 of dynmatrix.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $BAADF00D
+Call trace for block $00305F98 size 80
+  $00548C6F  TDMATRIX__INIT,  line 419 of dynmatrix.pas
+  $00548944  star,  line 364 of dynmatrix.pas
+  $00548BBD  starstar,  line 405 of dynmatrix.pas
+  $005483C2  MPOW,  line 251 of dynmatrix.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $BAADF00D
+Call trace for block $00305E58 size 80
+  $00548C6F  TDMATRIX__INIT,  line 419 of dynmatrix.pas
+  $00548944  star,  line 364 of dynmatrix.pas
+  $00548BDD  starstar,  line 407 of dynmatrix.pas
+  $00427321  TFMAIN__BTEST1CLICK,  line 71 of main.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $BAADF00D
+Call trace for block $00305DB8 size 80
+  $00548C6F  TDMATRIX__INIT,  line 419 of dynmatrix.pas
+  $00548944  star,  line 364 of dynmatrix.pas
+  $00548BDD  starstar,  line 407 of dynmatrix.pas
+  $00427321  TFMAIN__BTEST1CLICK,  line 71 of main.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $BAADF00D
+Call trace for block $00305D18 size 80
+  $00548C6F  TDMATRIX__INIT,  line 419 of dynmatrix.pas
+  $00548944  star,  line 364 of dynmatrix.pas
+  $00548BBD  starstar,  line 405 of dynmatrix.pas
+  $00427321  TFMAIN__BTEST1CLICK,  line 71 of main.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $BAADF00D
+Call trace for block $00305BD8 size 80
+  $00548C6F  TDMATRIX__INIT,  line 419 of dynmatrix.pas
+  $00548944  star,  line 364 of dynmatrix.pas
+  $004272EC  TFMAIN__BTEST1CLICK,  line 70 of main.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $0051564B  TBUTTONCONTROL__WMDEFAULTCLICKED,  line 20 of ./include/buttoncontrol.inc
+  $BAADF00D
+C:\lazarus\components\sdpo\SdpoDynmatrix\test_o.exe 
+Heap dump by heaptrc unit
+2366 memory blocks allocated : 356637/364600
+2366 memory blocks freed     : 356637/364600
+0 unfreed memory blocks : 0
+True heap size : 229376 (112 used in System startup)
+True free heap : 229264
+C:\lazarus\components\sdpo\SdpoDynmatrix\test_o.exe 
+Heap dump by heaptrc unit
+608833 memory blocks allocated : 91150368/91984832
+608821 memory blocks freed     : 91149272/91983736
+12 unfreed memory blocks : 1096
+True heap size : 327680 (112 used in System startup)
+True free heap : 325536
+Should be : 325704
+Call trace for block $002F03D0 size 104
+  $00548CEA  TDMATRIX__INIT,  line 422 of dynmatrix.pas
+  $0054B903  MSTACK,  line 1226 of dynmatrix.pas
+  $0042834D  TFMAIN__BTEST8CLICK,  line 198 of main.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $0051564B  TBUTTONCONTROL__WMDEFAULTCLICKED,  line 20 of ./include/buttoncontrol.inc
+  $BAADF00D
+Call trace for block $002F7CB8 size 136
+  $00548CEA  TDMATRIX__INIT,  line 422 of dynmatrix.pas
+  $005481A3  MDIAG,  line 220 of dynmatrix.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $0051564B  TBUTTONCONTROL__WMDEFAULTCLICKED,  line 20 of ./include/buttoncontrol.inc
+  $0040CEB8
+  $BAADF00D
+Call trace for block $002F7B18 size 136
+  $00548CEA  TDMATRIX__INIT,  line 422 of dynmatrix.pas
+  $005481A3  MDIAG,  line 220 of dynmatrix.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $0051564B  TBUTTONCONTROL__WMDEFAULTCLICKED,  line 20 of ./include/buttoncontrol.inc
+  $0040CEB8
+  $BAADF00D
+Call trace for block $002CA6A8 size 80
+  $00548CEA  TDMATRIX__INIT,  line 422 of dynmatrix.pas
+  $00548944  star,  line 364 of dynmatrix.pas
+  $004274CC  TFMAIN__BTEST2CLICK,  line 81 of main.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $0051564B  TBUTTONCONTROL__WMDEFAULTCLICKED,  line 20 of ./include/buttoncontrol.inc
+  $BAADF00D
+Call trace for block $002CACE8 size 80
+  $00548CEA  TDMATRIX__INIT,  line 422 of dynmatrix.pas
+  $00548944  star,  line 364 of dynmatrix.pas
+  $00548BBD  starstar,  line 405 of dynmatrix.pas
+  $005483C2  MPOW,  line 251 of dynmatrix.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $BAADF00D
+Call trace for block $002CAC48 size 80
+  $00548CEA  TDMATRIX__INIT,  line 422 of dynmatrix.pas
+  $00548944  star,  line 364 of dynmatrix.pas
+  $00548BDD  starstar,  line 407 of dynmatrix.pas
+  $005483C2  MPOW,  line 251 of dynmatrix.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $BAADF00D
+Call trace for block $002CABA8 size 80
+  $00548CEA  TDMATRIX__INIT,  line 422 of dynmatrix.pas
+  $00548944  star,  line 364 of dynmatrix.pas
+  $00548BDD  starstar,  line 407 of dynmatrix.pas
+  $005483C2  MPOW,  line 251 of dynmatrix.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $BAADF00D
+Call trace for block $002CAB08 size 80
+  $00548CEA  TDMATRIX__INIT,  line 422 of dynmatrix.pas
+  $00548944  star,  line 364 of dynmatrix.pas
+  $00548BBD  starstar,  line 405 of dynmatrix.pas
+  $005483C2  MPOW,  line 251 of dynmatrix.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $BAADF00D
+Call trace for block $002CA9C8 size 80
+  $00548CEA  TDMATRIX__INIT,  line 422 of dynmatrix.pas
+  $00548944  star,  line 364 of dynmatrix.pas
+  $00548BDD  starstar,  line 407 of dynmatrix.pas
+  $00427321  TFMAIN__BTEST1CLICK,  line 71 of main.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $BAADF00D
+Call trace for block $002CA928 size 80
+  $00548CEA  TDMATRIX__INIT,  line 422 of dynmatrix.pas
+  $00548944  star,  line 364 of dynmatrix.pas
+  $00548BDD  starstar,  line 407 of dynmatrix.pas
+  $00427321  TFMAIN__BTEST1CLICK,  line 71 of main.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $BAADF00D
+Call trace for block $002CA888 size 80
+  $00548CEA  TDMATRIX__INIT,  line 422 of dynmatrix.pas
+  $00548944  star,  line 364 of dynmatrix.pas
+  $00548BBD  starstar,  line 405 of dynmatrix.pas
+  $00427321  TFMAIN__BTEST1CLICK,  line 71 of main.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $BAADF00D
+Call trace for block $002CA748 size 80
+  $00548CEA  TDMATRIX__INIT,  line 422 of dynmatrix.pas
+  $00548944  star,  line 364 of dynmatrix.pas
+  $004272EC  TFMAIN__BTEST1CLICK,  line 70 of main.pas
+  $004FF835  TCONTROL__CLICK,  line 2736 of ./include/control.inc
+  $00515740  TBUTTONCONTROL__CLICK,  line 54 of ./include/buttoncontrol.inc
+  $00515E16  TCUSTOMBUTTON__CLICK,  line 169 of ./include/buttons.inc
+  $0051564B  TBUTTONCONTROL__WMDEFAULTCLICKED,  line 20 of ./include/buttoncontrol.inc
+  $BAADF00D
+C:\lazarus\components\sdpo\SdpoDynmatrix\test_o.exe 
+Heap dump by heaptrc unit
+1998 memory blocks allocated : 252125/258616
+1998 memory blocks freed     : 252125/258616
+0 unfreed memory blocks : 0
+True heap size : 229376 (112 used in System startup)
+True free heap : 229264
+C:\lazarus\components\sdpo\SdpoDynmatrix\test_o.exe 
+Heap dump by heaptrc unit
+2260 memory blocks allocated : 326533/334072
+2260 memory blocks freed     : 326533/334072
+0 unfreed memory blocks : 0
+True heap size : 229376 (112 used in System startup)
+True free heap : 229264
