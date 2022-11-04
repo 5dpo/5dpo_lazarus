@@ -8,7 +8,7 @@ competitions.
 
 ### Lazarus IDE
 
-Delphi compatible cross-platform IDE. Available at this
+Delphi compatible cross-platform IDE. Available in this
 [link](https://www.lazarus-ide.org/).
 
 **Ubuntu/Debian**
@@ -23,6 +23,47 @@ Delphi compatible cross-platform IDE. Available at this
    sudo apt install ./fpc-src_3.2.2-210709_amd64.deb
    sudo apt install ./lazarus-project_2.2.4-0_amd64.deb
    ```
+
+### 5dpo Component Library
+
+Set of components released by the
+[5dpo Robotics Team](https://web.fe.up.pt/~robosoc/) for
+[Lazarus](https://www.lazarus-ide.org/). Available in this
+[link](https://wiki.freepascal.org/5dpo) and also available in this
+[repository](pkg/sdpo-0.4.0/).
+
+The installation instructions for installing the components is available in the
+[INSTALL](pkg/sdpo-0.4.0/INSTALL) file. Please note that not all packages are
+cross-platform compatible (check that in the
+[wiki](https://wiki.freepascal.org/5dpo)).
+
+**Requirements:**
+
+- [freenect](https://github.com/OpenKinect/libfreenect)
+  ```sh
+  sudo apt install freenect
+  ```
+- LNet
+  1. Start Lazarus
+  2. Package > Online Package Manage
+  3. Search for `lnet` and select the package
+  4. Compile and install the package
+  5. Restart and rebuild the Lazarus IDE
+  6. Fix a bug in the package:
+     1. Open the file `/usr/share/fpcsrc/3.2.2/utils/fppkg/lnet/lnet.pp`
+     2. TBC
+- [PvAPI](https://www.alliedvision.com/en/support/software-downloads/)
+  1. Go to the [5dpo_msl_scripts](sh/5dpo_msl_scripts/) folder
+  2. Install the camera SDK
+     ```sh
+     cd install/
+     chmod +x 5dpo_install_camera.sh
+     sudo ./5dpo_install_camera.sh
+     ```
+
+**Bugs identified:**
+
+- Package `sdpofpseriallaz.lpk` error when installing it
 
 ## Contacts
 
