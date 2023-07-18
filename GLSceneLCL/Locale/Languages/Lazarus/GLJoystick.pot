@@ -1,0 +1,15 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: gljoystick.glsconnectjoystick
+msgid "Joystick is not connected to your system"
+msgstr ""
+
+#: gljoystick.glsjoystickerror
+msgid "Your system reports a joystick error, can't do anything about it"
+msgstr ""
+
+#: gljoystick.glsnojoystickdriver
+msgid "There's no joystick driver present"
+msgstr ""
+

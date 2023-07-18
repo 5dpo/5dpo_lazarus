@@ -1,0 +1,49 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: glwin32context.strbackwardcontextfailed
+#, object-pascal-format
+msgid "Can not create backward compatible context: #%X, %s"
+msgstr ""
+
+#: glwin32context.strdrivernotsupportdebugrc
+msgid "Driver not support creating of debug context"
+msgstr ""
+
+#: glwin32context.strdrivernotsupportfrc
+msgid "Driver not support creating of forward context"
+msgstr ""
+
+#: glwin32context.strdrivernotsupportoesrc
+msgid "Driver not support creating of OpenGL ES 2.0 context"
+msgstr ""
+
+#: glwin32context.strfailhwrc
+msgid "Unable to create rendering context with hardware acceleration - down to software"
+msgstr ""
+
+#: glwin32context.strforwardcontextfailed
+#, object-pascal-format
+msgid "Can not create forward compatible context: #%X, %s"
+msgstr ""
+
+#: glwin32context.strfrc_created
+msgid "Forward core context seccussfuly created"
+msgstr ""
+
+#: glwin32context.stroesrc_created
+msgid "OpenGL ES 2.0 context seccussfuly created"
+msgstr ""
+
+#: glwin32context.stroesvsforwardrc
+msgid "OpenGL ES 2.0 context incompatible with Forward context - flag ignored"
+msgstr ""
+
+#: glwin32context.strpbufferrc_created
+msgid "Backward compatible core PBuffer context successfully created"
+msgstr ""
+
+#: glwin32context.strtmprc_created
+msgid "Temporary rendering context created"
+msgstr ""
+
