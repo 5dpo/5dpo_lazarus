@@ -1,0 +1,89 @@
+07.04.2012 - 0.2.0 released - removed support for SdpoVideo1394. Added SdpoPvAPI implementation, SdpoFreenect for Kinect, matrix functions in SdpoDynmatrix and debayer functions in SdpoDebayer. Changed file structure.
+
+08.11.2010 - 0.1.8 released
+
+17.09.2010 - SdpoFastForm - fixed OnClose Event in Linux 
+
+04.08.2010 - SdpoFastForm - added Width property for "pen" in Linux 
+
+06.05.2010 - SdpoSerial - added FlowControl
+
+15.03.2010 - SdpoSerial - Fix WriteBuffer bug. Linux 64 bit tested
+             SdpoVideo1394 - Fix Format7 PacketSize bug
+
+23.10.2009 - SdpoFastForm - added glib2 for 0.9.28 support
+
+25.02.2009 - SdpoFastForm - added Icon
+
+19.02.2009 - 0.1.6 released. SdpoVideo4L2 - updated videodev2. Removed {$i} in component unit
+
+18.02.2009 - SdpoVideo4L2 - included videodev2 in package unit to V4L2 consts available
+
+17.02.2009 - SdpoVideo4L2 - delayed thread start, added all PixelFormat modes, fixed BayerMode
+
+11.02.2009 - SdpoJoystick - allows single button and axis through Axis[i] and Button[i]
+
+10.02.2009 - SdpoVideo4L2 - added Pixel Format property for Imaging Source USB cameras
+
+03.02.2009 - SdpoJoystick - removed Linux libc dependency. Added POV in Win32
+
+02.02.2009 - SdpoJoystick - added UpdateInterval to Win32 version. Common Win32/Linux functions reorganized
+
+01.02.2009 - SdpoDSM - ported from Delphi/Kylix
+
+08.01.2009 - SdpoFastForm - added BringToFront
+
+01.11.2008 - SdpoFastForm - added AlwaysOnTop property working in GTK2
+
+15.10.2008 - 0.1.5 released
+             Tested under Lazarus 0.9.26
+
+16.06.2008 - SdpoVideo4L2 - added Fpmunmap on Close. Added example.
+
+14.06.2008 - SdpoVideo4L2 - removed libc dependency
+
+02.06.2008 - SdpoVideo1394 - supports several cameras in same port using SetExternalHandle
+
+25.05.2008 - SdpoVideo4L2 - added support for PAN & TILT
+
+16.05.2008 - SdpoJoystick - working only in Windows
+
+15.05.2008 - SdpoJoystick - working only in Linux
+
+08.04.2008 - SdpoVideo4L2 - Creation
+
+26.03.2008 - SdpoFastForm - Added OnKeyDown and OnKeyUp
+
+21.03.2008 - SdpoFastForm - Canvas 16 bit compatible
+
+09.03.2008 - SdpoFastForm - Added Position 'poSelectable' with Top and Left Property. AllocImage and AllocWindow now private, new Init procedure to initialize SdpoFastForm.
+
+29.02.2008 - Added Pen, Brush and Font property and removed FgColor property in SdpoFastFormCanvas. Bugfix in Format7 release_dma_camera in SdpoVideo1394
+
+25.02.2008 - Check existing color on change and added ellipse to SdpoFastFormCanvas
+
+24.02.2008 - Added Visible property and ShiftState in SdpoFastForm
+
+23.02.2008 - SdpoFastForm - Added create window when creating widget. Widget realize on AllocWindow.
+
+22.02.2008 - 0.1.3 released
+             Fix GetFgColor in SdpoFastForm
+
+15.02.2008 - Changed GdkColor to TColor in sdpofastform.pas
+             Updated example in SdpoFastForm
+
+12.02.2008 - Added example to SdpoFastForm
+
+11.02.2008 - Added Canvas class to SdpoFastForm
+
+26.01.2008 - Default to Non Locking in Linux in SdpoSerial
+
+24.01.2008 - 0.1.2 released
+
+19.01.2008 - Support for GTK1 and GTK2 for SdpoFastForm
+
+18.01.2008 - Added debuglist and exceptions in SdpoFastForm
+
+17.01.2008 - Removed dependency of libc.pp in video1394. Deleted "$(LazarusDir)/components/Sdpo/" path in packages "Compiler Options"
+
+12.01.2008 - 0.1.1 first test for publication

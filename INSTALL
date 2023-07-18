@@ -1,0 +1,59 @@
+Sdpo requires FPC 2.6.0 or greater.
+
+
+Units:
+
+sdposerial.pas - this is the serial port implementation.
+sdpofastform.pas - this is the fast GtkWindow addition.
+sdpovideo4l2.pas - UVC video driver for linux
+
+
+Layout:
+
+/ -- this root dir
+SdpoSerial/ -- specific units and files for TSdpoSerial component
+SdpoVideo1394/ -- specific units and files for TSdpoVideo1394 component
+SdpoFastForm/ -- specific units and files for TSdpoFastForm component
+SdpoFastForm/ -- specific units and files for TSdpoFastForm component
+SdpoVideo4L2/ -- files for TSdpoVideo4L2 component
+
+
+Lazarus package installation:
+
+Extract 5DPO Component Library and move the Sdpo/ directory to the components/ directory of your Lazarus installation.
+
+ - TSdpoSerial
+    1. Start Lazarus, go to components/Open package file(*.lpk)
+    2. Open sdposeriallaz.lpk, compile and install
+    3. Let Lazarus restart.
+
+ - TSdpoFastForm
+    1. Start Lazarus, go to components/Open package file(*.lpk)
+    2. Open sdpofastformlaz.lpk, compile and install
+    3. Let Lazarus restart.
+
+ - TSdpoVideo4L2
+    1. Start Lazarus, go to components/Open package file(*.lpk)
+    2. Open sdpovideo4l2laz.lpk, compile and install
+    3. Let Lazarus restart.
+
+ - TSdpoVideoPvAPI
+    1. Start Lazarus, go to components/Open package file(*.lpk)
+    2. Open sdpovideopvapilaz.lpk, compile and install
+    3. Let Lazarus restart.
+
+ - TSdpoJoystick
+    1. Start Lazarus, go to components/Open package file(*.lpk)
+    2. Open sdpojoysticklaz.lpk, compile and install
+    3. Let Lazarus restart.
+
+ - TSdpoDebayer
+    1. Start Lazarus, go to components/Open package file(*.lpk)
+    2. Open sdpodebayerlaz.lpk and compile.
+    3. Select "Add to project" or "Install" and let Lazarus restart.
+
+ - TSdpoDynmatrix
+    1. Start Lazarus, go to components/Open package file(*.lpk)
+    2. Open sdpodynmatrixlaz.lpk and compile.
+    3. Select "Add to project" or "Install" and let Lazarus restart.
+

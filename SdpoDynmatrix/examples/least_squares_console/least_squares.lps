@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="least_squares.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="32" Y="3"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\..\dynmatrix.pas"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="988"/>
+        <CursorPos Y="1020"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\sdpodynmatrix.pas"/>
+        <UnitName Value="SdpoDynmatrix"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\dynmatrixutils.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="77"/>
+        <CursorPos Y="115"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\..\..\fpc\3.0.0\source\rtl\win\sysutils.pp"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="14" Y="17"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit4>
+    </Units>
+    <JumpHistory Count="11" HistoryIndex="10">
+      <Position1>
+        <Filename Value="..\..\dynmatrix.pas"/>
+        <Caret Line="106" Column="10" TopLine="86"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\..\sdpodynmatrix.pas"/>
+      </Position2>
+      <Position3>
+        <Filename Value="least_squares.lpr"/>
+        <Caret Line="16" Column="15"/>
+      </Position3>
+      <Position4>
+        <Filename Value="least_squares.lpr"/>
+        <Caret Line="14" Column="33"/>
+      </Position4>
+      <Position5>
+        <Filename Value="least_squares.lpr"/>
+        <Caret Line="29" Column="16"/>
+      </Position5>
+      <Position6>
+        <Filename Value="least_squares.lpr"/>
+        <Caret Line="28" Column="15"/>
+      </Position6>
+      <Position7>
+        <Filename Value="least_squares.lpr"/>
+        <Caret Line="30" Column="22"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\..\dynmatrixutils.pas"/>
+        <Caret Line="151" TopLine="118"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\..\dynmatrixutils.pas"/>
+        <Caret Line="153" TopLine="130"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\..\dynmatrixutils.pas"/>
+        <Caret Line="170" Column="75" TopLine="150"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\..\dynmatrixutils.pas"/>
+        <Caret Line="150" Column="10" TopLine="130"/>
+      </Position11>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

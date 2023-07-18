@@ -1,0 +1,73 @@
+object FMain: TFMain
+  Left = 489
+  Height = 470
+  Top = 200
+  Width = 339
+  HorzScrollBar.Page = 261
+  VertScrollBar.Page = 32
+  ActiveControl = CBVideoActive
+  Caption = 'SdpoVideo4L2'
+  ClientHeight = 470
+  ClientWidth = 339
+  OnClose = FormClose
+  LCLVersion = '0.9.30'
+  object CBVideoActive: TCheckBox
+    Left = 4
+    Height = 24
+    Top = 4
+    Width = 111
+    Caption = 'Video Active'
+    OnChange = CBVideoActiveChange
+    TabOrder = 0
+  end
+  object EditDevice: TEdit
+    Left = 118
+    Height = 27
+    Top = 4
+    Width = 140
+    AutoSize = False
+    AutoSelect = False
+    TabOrder = 1
+    Text = '/dev/video0'
+  end
+  object Memo: TMemo
+    Left = 4
+    Height = 386
+    Top = 64
+    Width = 331
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    OnChange = MemoChange
+    TabOrder = 2
+  end
+  object StatusBar: TStatusBar
+    Left = 0
+    Height = 21
+    Top = 449
+    Width = 339
+    Panels = <>
+  end
+  object Video: TSdpoVideo4L2
+    Active = False
+    Width = 320
+    Height = 240
+    FrameRate = 30
+    BayerMode = False
+    PixelFormat = uvcpf_BGR24
+    UseLibV4l = True
+    OnFrame = VideoFrame
+    left = 8
+    top = 32
+  end
+  object Image: TSdpoFastForm
+    Width = 320
+    Height = 240
+    TopPos = 0
+    LeftPos = 0
+    Position = poNone
+    Caption = 'Image'
+    ImageType = itNormal
+    AlwaysOnTop = False
+    left = 224
+    top = 32
+  end
+end

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="3">
+    <Name Value="SdpoDebayer"/>
+    <Author Value="Paulo Marques, Paulo Costa"/>
+    <CompilerOptions>
+      <Version Value="9"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Other>
+        <CompilerPath Value="$(CompPath)"/>
+        <ExecuteBefore>
+          <Command Value="make -fsdpodebayer.mak"/>
+          <ShowAllMessages Value="True"/>
+        </ExecuteBefore>
+      </Other>
+    </CompilerOptions>
+    <Description Value="MMX functions to convert a bayer pattern to RGB"/>
+    <License Value="LGPL with the linking exception"/>
+    <Version Major="1"/>
+    <Files Count="1">
+      <Item1>
+        <Filename Value="mmxdebayer.pas"/>
+        <UnitName Value="mmxdebayer"/>
+      </Item1>
+    </Files>
+    <Type Value="RunAndDesignTime"/>
+    <RequiredPkgs Count="1">
+      <Item1>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+    </RequiredPkgs>
+    <UsageOptions>
+      <LibraryPath Value="$(PkgDir)"/>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

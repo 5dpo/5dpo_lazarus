@@ -1,0 +1,84 @@
+object FMain: TFMain
+  Left = 480
+  Height = 294
+  Top = 201
+  Width = 370
+  HorzScrollBar.Page = 369
+  VertScrollBar.Page = 293
+  ActiveControl = BSend
+  Caption = 'FMain'
+  ClientHeight = 294
+  ClientWidth = 370
+  OnClose = FormClose
+  OnShow = FormShow
+  LCLVersion = '1.8.2.0'
+  object BSend: TButton
+    Left = 16
+    Height = 25
+    Top = 52
+    Width = 75
+    Caption = 'Send'
+    OnClick = BSendClick
+    TabOrder = 0
+  end
+  object EditSend: TEdit
+    Left = 104
+    Height = 23
+    Top = 54
+    Width = 80
+    TabOrder = 1
+    Text = 'EditSend'
+  end
+  object Memo: TMemo
+    Left = 208
+    Height = 228
+    Top = 56
+    Width = 150
+    Lines.Strings = (
+      ''
+    )
+    TabOrder = 2
+  end
+  object BOpen: TButton
+    Left = 108
+    Height = 25
+    Top = 16
+    Width = 75
+    Caption = 'Open'
+    OnClick = BOpenClick
+    TabOrder = 3
+  end
+  object BClose: TButton
+    Left = 200
+    Height = 25
+    Top = 16
+    Width = 75
+    Caption = 'Close'
+    OnClick = BCloseClick
+    TabOrder = 4
+  end
+  object CBDTR: TCheckBox
+    Left = 16
+    Height = 19
+    Top = 88
+    Width = 42
+    Caption = 'DTR'
+    Checked = True
+    OnChange = CBDTRChange
+    State = cbChecked
+    TabOrder = 5
+  end
+  object Serial: TSdpofpSerial
+    Active = False
+    BaudRate = br115200
+    AltBaudRate = 0
+    DataBits = db8bits
+    Parity = NoneParity
+    FlowControl = []
+    StopBits = sbOne
+    SerialHandle = 0
+    Device = 'COM1'
+    left = 120
+    top = 144
+  end
+end
