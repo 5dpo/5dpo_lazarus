@@ -1,0 +1,11 @@
+SdpoDSM/lib/
+SdpoDebayer/lib/
+SdpoDynmatrix/lib/
+SdpoFastForm/lib/
+SdpoFreenect/lib/
+SdpoJoystick/lib/
+SdpoPvAPI/lib/
+SdpofpSerial/lib/
+SdpoVideo4L2/lib/
+*.a
+*.o
